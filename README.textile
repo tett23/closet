@@ -1,2 +1,3 @@
-closet
-======
+h1. closet
+
+githubのPost-Receive Hooksに応じてpullやらサーバの再起動などをしてくれる
