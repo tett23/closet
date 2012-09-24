@@ -1,3 +1,16 @@
 h1. closet
 
 githubのPost-Receive Hooksに応じてpullやらサーバの再起動などをしてくれる
+
+h2. 使い方
+
+# config/config.yaml.exampleをconfig/config.yamlにリネーム
+# 各プロジェクトディレクトリに.closetファイルを作成し、中に実行するシェルスクリプトを書く
+
+h2. config.yaml
+
+<pre>
+projects:
+  プロジェクト名:
+    dir: 設置ディレクトリ
+</pre>
