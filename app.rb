@@ -30,7 +30,7 @@ module Closet
     end
 
     get '/time' do
-      START
+      START.to_s
     end
   end
 end
