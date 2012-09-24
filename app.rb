@@ -7,6 +7,7 @@ require 'yaml'
 
 CONFIG_PATH = './config/config.yaml'
 CLOSET_FILE = '.closet'
+START = Time.now
 
 module Closet
   class Application < Sinatra::Base
@@ -26,6 +27,10 @@ module Closet
       system(File.read(closet_file))
 
       true.to_json
+    end
+
+    get '/time' do
+      START
     end
   end
 end
