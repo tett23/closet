@@ -1,6 +1,6 @@
 h1. closet
 
-githubのPost-Receive Hooksに応じてpullやらサーバの再起動などをしてくれる
+githubのwebhookに応じてpullやらサーバの再起動などをしてくれる
 
 h2. 使い方
 
